@@ -1,0 +1,60 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wild Horizon Adventures</title>
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; text-align: center; color: #263629; }
+    header { background: #174c35; color: white; padding: 25px; }
+    nav { padding: 15px; background: #e9eee5; }
+    nav a { margin: 10px; color: #174c35; text-decoration: none; }
+    .hero { background: #dce8d5; padding: 65px 20px; }
+    h1 { font-size: 36px; }
+    section { padding: 30px 20px; }
+    .contact { background: #f2f3ed; }
+    input, textarea, button { padding: 12px; margin: 8px; width: 85%; max-width: 350px; }
+    button { background: #174c35; color: white; border: 0; }
+    footer { background: #174c35; color: white; padding: 18px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Wild Horizon Adventures</h2>
+    <p>Discover Kenya. Experience the Wild.</p>
+  </header>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#tours">Our Adventures</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="hero">
+    <h1>Your Next Adventure Starts Here!</h1>
+    <p>Explore Kenya's wildlife, national parks and beautiful mountains.</p>
+  </div>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>Wild Horizon Adventures connects travellers with unforgettable
+    experiences in Kenya's beautiful landscapes.</p>
+  </section>
+  <section id="tours">
+    <h2>Our Adventures</h2>
+    <p>Wildlife Safaris | National Parks | Mountain Climbing</p>
+  </section>
+  <section class="contact" id="contact">
+    <h2>Plan Your Adventure</h2>
+    <p>Tell us what experience you are interested in.</p>
+    <form action="https://formsubmit.co/" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your dream adventure" required></textarea>
+      <button type="submit">Send Inquiry</button>
+    </form>
+  </section>
+  <footer>
+    <p>© 2026 Wild Horizon Adventures</p>
+  </footer>
+</body>
+</html>
